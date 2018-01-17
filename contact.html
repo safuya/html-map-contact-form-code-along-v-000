@@ -19,12 +19,15 @@
 
   <!-- Contact form -->
   <form action="#" method="post">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required></input>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email"></input>
-    <label for="phone"></label>
-    <input type="phone" id="phone" name="phone"></input>
+    <label for="name">Name*</label>
+    <input type="text" id="name" name="name" placeholder="name" required></input>
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" placeholder="email" required></input>
+    <label for="phone">Phone</label>
+    <input type="phone" id="phone" name="phone" placeholder="phone (optional)"></input>
+    <label for="message">Message</label>
+    <input type="textarea" name="message" rows="10"></input>
+    <input type="submit" value="send">
 
   </form>
 
